@@ -3,14 +3,13 @@ import Sidebar from "./components/Sidebar";
 
 import "./styles/components/app.sass";
 
-function App() {
+const App = () => {
   return (
     <div id="portfolio">
-      <h1>João Victor Aquino Correia</h1>
       <Sidebar />
       <MainContent />
     </div>
   );
-}
+};
 
 export default App;

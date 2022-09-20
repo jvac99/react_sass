@@ -1,5 +1,16 @@
-function MainContent() {
-  return <div>MainContent</div>;
-}
+import "../styles/components/mainContent.sass";
+import AboutContainer from "./AboutContainer";
+import ProjectsContainer from "./ProjectsContainer";
+import TechnologiesContainer from "./TechnologiesContainer";
+
+const MainContent = () => {
+  return (
+    <main id="main-content">
+      <AboutContainer />
+      <TechnologiesContainer />
+      <ProjectsContainer />
+    </main>
+  );
+};
 
 export default MainContent;
