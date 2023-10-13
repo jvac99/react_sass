@@ -11,12 +11,12 @@ const InformationContainer = () => {
     <section id="information">
       <InfoCard
         title="E-mail"
-        content="email@hotmail.com"
+        content="jvac99@hotmail.com"
         icon={<AiOutlineMail id="email-icon" />}
       />
       <InfoCard
         title="Telefone"
-        content="(88)900000000"
+        content="(88) 99834-4005"
         icon={<AiFillPhone id="phone-icon" />}
       />
       <InfoCard

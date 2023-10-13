@@ -1,9 +1,9 @@
 import React from "react";
 
-const AboutContainer = () => {
+const ExperienceContainer = () => {
   return (
     <section className="">
-      <h2>Sobre</h2>
+      <h2>Experiência</h2>
       <p>
         Atuação em pesquisa e desenvolvimento de software com foco em Ciência da
         Computação e áreas afins.
@@ -18,4 +18,4 @@ const AboutContainer = () => {
   );
 };
 
-export default AboutContainer;
+export default ExperienceContainer;
