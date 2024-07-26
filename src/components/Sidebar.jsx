@@ -5,13 +5,13 @@ import SocialNetworks from "./SocialNetworks";
 
 const Sidebar = () => {
   return (
-    <aside id="sidebar">
-      <img src={Avatar} alt="João Victor Aquino Correia" />
-      <h2 className="name">João Victor Aquino Correia</h2>
-      <div className="title">Software Developer at ViLT</div>
+    <aside id='sidebar'>
+      <img src={Avatar} alt='João Victor Aquino Correia' />
+      <h2 className='name'>João Victor Aquino Correia</h2>
+      <div className='title'>Jr Engineer at VILT | Cientista da Computação</div>
       <SocialNetworks />
       <InformationContainer />
-      <a href="" className="btn">
+      <a href='' className='btn'>
         Download CV
       </a>
     </aside>

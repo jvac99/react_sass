@@ -1,14 +1,14 @@
 import "../styles/components/technologiesContainer.sass";
 
 import {
-  DiHtml5,
   DiCss3,
-  DiSass,
+  DiHtml5,
   DiJsBadge,
-  DiReact,
-  DiNodejsSmall,
-  DiMysql,
   DiMongodb,
+  DiMysql,
+  DiNodejsSmall,
+  DiReact,
+  DiSass,
 } from "react-icons/di";
 
 const technologies = [
@@ -17,6 +17,7 @@ const technologies = [
   { id: "sass", name: "Sass", icon: <DiSass /> },
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "vue", name: "Vue.js", icon: <DiReact /> },
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "mongo", name: "MongoDb", icon: <DiMongodb /> },
@@ -24,13 +25,13 @@ const technologies = [
 
 const TechnologiesContainer = () => {
   return (
-    <section className="technologies-container">
+    <section className='technologies-container'>
       <h2>Tecnologias</h2>
-      <div className="technologies-grid">
-        {technologies.map((tech) => (
-          <div className="technology-card" id={tech.id} key={tech.id}>
+      <div className='technologies-grid'>
+        {technologies.map((tech, key) => (
+          <div className='technology-card' id={tech.id} key={tech.id}>
             {tech.icon}
-            <div className="technology-info">
+            <div className='technology-info'>
               <h3>{tech.name}</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>

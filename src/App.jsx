@@ -5,7 +5,7 @@ import "./styles/components/app.sass";
 
 const App = () => {
   return (
-    <div id="portfolio">
+    <div id='portfolio'>
       <Sidebar />
       <MainContent />
     </div>
